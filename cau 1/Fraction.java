@@ -69,4 +69,9 @@ public class Fraction {
         numerator/=dem;
         denominator/=dem;
     }
+    //hien thi thong tin
+    @Override
+    public String toString(){
+        return "( "+ this.numerator+";"+ this.denominator+ ")";
+    }
 }
